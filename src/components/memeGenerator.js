@@ -22,7 +22,13 @@ class MemeGenerator extends React.PureComponent {
     }
 
     render() {
-        return <h1 className="display-5">MEME GENERATOR SECTION</h1>;
+        return (
+            <form>
+                <div className="form-group">
+                        <button className="btn btn-success">Generate</button>
+                </div>
+            </form>
+        );
     }
 };
 
