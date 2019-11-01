@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 86%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.header {
+    background-color: #4e006e;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 10px 0;
+    margin: 0 -15px;
+}
+
+.logo__image {
+    flex-grow: 0.5;
+    margin: 10px auto;
+    padding: 0 15px;
+    vertical-align: bottom;
+}
+
+.logo__title {
+    flex-grow: 0.5;
+    text-align: right;
+    margin: 10px 0;
+    padding: 0 15px;
+    font-size: 2.4rem;
+}
