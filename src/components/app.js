@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './header';
-import MemeGenerator from './memegenerator';
+import MemeGenerator from './memeGenerator';
 import ControlledForm from './controlledForm';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './../styles/styles.css';
